@@ -14,20 +14,20 @@
 _build
 
 # generated codelets:
-rdft/simd/altivec/*.c
-rdft/simd/avx/*.c
-rdft/simd/common/*.c
-rdft/simd/neon/*.c
-rdft/simd/sse2/*.c
-rdft/scalar/r2cb/*.c
-rdft/scalar/r2cf/*.c
-rdft/scalar/r2r/*.c
-dft/scalar/codelets/*.c
-dft/simd/altivec/*.c
-dft/simd/avx/*.c
-dft/simd/common/*.c
-dft/simd/neon/*.c
-dft/simd/sse2/*.c
+# rdft/simd/altivec/*.c
+# rdft/simd/avx/*.c
+# rdft/simd/common/*.c
+# rdft/simd/neon/*.c
+# rdft/simd/sse2/*.c
+# rdft/scalar/r2cb/*.c
+# rdft/scalar/r2cf/*.c
+# rdft/scalar/r2r/*.c
+# dft/scalar/codelets/*.c
+# dft/simd/altivec/*.c
+# dft/simd/avx/*.c
+# dft/simd/common/*.c
+# dft/simd/neon/*.c
+# dft/simd/sse2/*.c
 
 # other generated files
 ChangeLog
@@ -77,6 +77,8 @@ m4/ltversion.m4
 m4/lt~obsolete.m4
 configure
 config.*
+!fftw-3.3_vc12/libfftw-3.3/config.h
+!fftw-3.3_vc12/libfftwf-3.3/config.h
 autom4te.cache
 INSTALL
 aclocal.m4

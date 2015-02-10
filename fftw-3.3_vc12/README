@@ -1,0 +1,1 @@
+Copy the folder containing fftw-3.3-libs.sln, fftw-3.3_vc12, to the FFTW root, where the find the api, dft, etc. folders.
