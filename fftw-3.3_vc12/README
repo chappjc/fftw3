@@ -1,1 +1,12 @@
 The folder containing fftw-3.3.sln, called fftw-3.3_vc12 by default, must be in the FFTW root folder, alongside the api, dft, etc. folders.
+
+Notable settings in config.h:
+
+ * HAVE_AVX enabled
+ * HAVE_ISNAN define since it's now in VS 2013
+ * HAVE_OPENMP defined (testing this)
+ * etc.
+
+These projects are based on the VS 2010 projects from https://github.com/ZECTBynmo/SparkPlug/tree/master/FFTW/fftw-3.3-libs.
+
+Work in progress!
